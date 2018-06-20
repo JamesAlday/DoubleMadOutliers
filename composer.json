@@ -1,0 +1,22 @@
+{
+    "name": "JamesAlday/DoubleMadOutliers",
+    "description": "Uses the Double Median Average Deviation test to find outliers in data",
+    "keywords": ["math", "statitics", "deviation"],
+    "homepage": "http://github.com/JamesAlday/DoubleMadOutliers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Alday",
+            "homepage": "http://jamesalday.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DoubleMadOutliers\\": "src/DoubleMadOutliers"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    }
+}
