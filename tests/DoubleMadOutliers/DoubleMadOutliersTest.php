@@ -48,6 +48,12 @@ class DoubleMadOutliersTest extends TestCase
         // Test single median value
         $dmo = new DoubleMadOutliers([1,2,3,4,5,6,7,8,9]);
         $this->assertEquals(['left' => 2, 'right' => 2], $dmo->doubleMad());
+
+        $this->expectException(\Exception::class);
+
+        //...and then add your test code that generates the exception
+        $dmo = new DoubleMadOutliers([1,1,1,1,1,1,1,1,1]);
+        $dmo->doubleMad();
     }
 
     /**

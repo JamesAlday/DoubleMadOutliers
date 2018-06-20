@@ -76,7 +76,7 @@ class DoubleMadOutliers
 
         // MAD=0 === ERROR
         if ($mad['left'] == 0 || $mad['right'] == 0) {
-            throw new Exception("MAD is 0");
+            throw new \Exception("MAD is 0");
         }
 
         return $mad;
