@@ -1,6 +1,6 @@
 <?php
 /**
- * Double Median Average Deviation (MAD) Outlier Test
+ * Double Median Absolute Deviation (MAD) Outlier Test
  *
  * Uses 'Double MAD' method to find outliers in asymmetric data. It splits the data into 2 'legs'
  * around the median and does a MAD test to check for outliers in each leg.
