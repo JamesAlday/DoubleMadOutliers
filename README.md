@@ -1,4 +1,4 @@
-# Double Median Absolute Distribution Outlier Test
+# Double Median Absolute Deviation Outlier Test
 
 This is a small library class that tests asymmetric data for outliers based on the 'Double MAD' method.
 
