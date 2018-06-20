@@ -1,5 +1,5 @@
 {
-    "name": "JamesAlday/DoubleMadOutliers",
+    "name": "jamesalday/doublemadoutliers",
     "description": "Uses the Double Median Average Deviation test to find outliers in data",
     "keywords": ["math", "statitics", "deviation"],
     "homepage": "http://github.com/JamesAlday/DoubleMadOutliers",
